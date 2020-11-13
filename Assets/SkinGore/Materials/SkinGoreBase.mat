@@ -82,7 +82,7 @@ Material:
     - _Glossiness: 1
     - _GlossyReflections: 1
     - _Hardness: 0.504
-    - _Metal: 0
+    - _Metal: 1
     - _Metallic: 0
     - _Mode: 0
     - _NrmStrength: 1
