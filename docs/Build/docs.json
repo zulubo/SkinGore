@@ -1,0 +1,16 @@
+{
+"companyName": "Zulubo Productions",
+"productName": "SkinGore",
+"productVersion": "0.1",
+"dataUrl": "docs.data.unityweb",
+"wasmCodeUrl": "docs.wasm.code.unityweb",
+"wasmFrameworkUrl": "docs.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.10f1"
+}

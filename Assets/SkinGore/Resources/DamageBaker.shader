@@ -39,10 +39,8 @@
             {
                 v2f o;
                 o.vertex = float4(2 * v.uv1.xy * float2(1, -1) + float2(-1, 1), 1, 1);
-                #if SHADER_API_D3D9
-                    if (_MainTex_TexelSize.y < 0)
-                        o.vertex.y = 1.0 - o.vertex.y;
-                #endif
+                o.vertex.y *= -_ProjectionParams.x;
+                
                 o.uv1 = v.uv1;
                 o.localPosition = v.vertex;
                 return o;
