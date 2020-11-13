@@ -3,6 +3,8 @@
  
 I've included an example scene in the project where you can click on this mannequin to mutilate him!
 
+[Here's a web build too, to play with.](https://zulubo.github.io/SkinGoreWebBuild/)
+
 ![Example of gore on mannequin](/images/gore_0.png)
 
 ## How it works
