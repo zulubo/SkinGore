@@ -147,6 +147,7 @@ public class SkinGoreRenderer : MonoBehaviour
         damageRendererMat.SetFloat(id_amount, amount);
         var tex_damage = GetTempTex();
         var tex_dilated = GetTempTex();
+        damageRendererCam.transform.position = damageRendererSkin.bounds.center + damageRendererSkin.transform.forward * -10;
         damageRendererCam.targetTexture = tex_damage.tex;
         damageRendererCam.Render();
         damageRendererSkin.gameObject.SetActive(false);
